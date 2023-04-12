@@ -1,0 +1,10 @@
+Packages
+========
+engine => generic contract for the engine no matter the view (binds to server)
+svg-engine => JSON vectorial map input into web view (svg)
+canvas-engine => JSON canvas map input into web view (canvas)
+map-converter => takes JSON coordinate map and converts to output format (ve) // define contract and use a driver system for conversion
+map-extractor => extracts PNG data into JSON coordinate map // define JSON format and stub for now)
+events => hooks for all mouse and keyboard events with link to "business" code
+core => "business code" models and logic
+server => netcode logic (runs checks)
